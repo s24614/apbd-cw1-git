@@ -2,7 +2,7 @@
 
 Prosty program konsolowy w C# stworzony w ramach ćwiczeń z przedmiotu APBD na temat Gita i GitHuba.
 
-Program wywołuje metodę `Greeting.GetMessage()`, oblicza sumę elementów tablicy `{ 2, 4, 6 }` metodą `StatisticsHelper.CalculateSum` i wypisuje oba wyniki na konsolę.
+Program wyświetla powitanie zwracane przez `Greeting.GetMessage()`, a dla tablicy `{ 2, 4, 6 }` oblicza i wypisuje: sumę (`StatisticsHelper.CalculateSum`), średnią arytmetyczną (`StatisticsHelper.CalculateAverage`), liczbę elementów oraz największą wartość (`StatisticsHelper.CalculateMax`).
 
 ## Uruchomienie
 
@@ -17,8 +17,11 @@ dotnet run
 Oczekiwany wynik:
 
 ```
-Hello, APBD!
+Witaj w kalkulatorze APBD!
 Suma: 12
+Średnia: 4
+Liczba elementów: 3
+Maksimum: 6
 ```
 
 ## Budowa
