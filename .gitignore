@@ -1,0 +1,17 @@
+## Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+## Build results - WPF/WinForms
+*_i.cache
+*_p.cache
